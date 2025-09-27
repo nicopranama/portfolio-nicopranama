@@ -19,7 +19,7 @@ This portfolio highlights my projects, education, volunteer experiences, and oth
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Shadcn UI](https://ui.shadcn.com/)
 
-## 📦 Installation
+## Installation
 
 Clone the repository and install dependencies:
 
