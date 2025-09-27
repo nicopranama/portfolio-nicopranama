@@ -95,7 +95,7 @@ const Volunteer = () => {
             Volunteer
           </Badge>
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Volunteer Experience
+            Social Activities
           </h2>
           <p className="text-muted-foreground mt-2 sm:mt-4 text-lg">
             Highlights of my volunteer work and community contributions.
