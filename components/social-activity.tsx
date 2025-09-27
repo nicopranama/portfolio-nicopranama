@@ -54,28 +54,36 @@ const ActivityItem = ({
 const Volunteer = () => {
   const activities = [
     {
-      title: "Tech Community Leader",
-      organization: "Developer Community Indonesia",
-      period: "2022 - Present",
+      title: "Tech Volunteer",
+      organization: "BINUS University – TFISC PIONEER",
+      period: "2025",
       description:
-        "Leading a community of 500+ developers, organizing monthly meetups, and facilitating knowledge sharing sessions on modern web development technologies.",
-      activities: ["Community Management", "Event Organization", "Mentoring", "Public Speaking"],
+        "Collaborated with a team to build a tourism website for Desa Bumiaji and facilitated a community workshop on web usage and SEO.",
+      activities: ["Web Development", "Community Workshop", "SEO Training", "Team Collaboration"],
     },
     {
-      title: "Open Source Contributor",
-      organization: "GitHub Community",
-      period: "2021 - Present",
+      title: "Welfare Volunteer",
+      organization: "BINUS University – TFI Program",
+      period: "2024",
       description:
-        "Actively contributing to open source projects, maintaining documentation, and helping new contributors get started with their first contributions.",
-      activities: ["Code Contribution", "Documentation", "Issue Resolution", "Community Support"],
+        "Conducted interviews with residents of Desa Polehan, Malang, about interfaith tolerance and produced a campaign video based on their stories.",
+      activities: ["Community Interview", "Video Campaign", "Public Education"],
     },
     {
-      title: "Student Ambassador",
-      organization: "University Tech Club",
-      period: "2020 - 2022",
+      title: "Campaign Volunteer",
+      organization: "BINUS University – TFI Program",
+      period: "2023",
       description:
-        "Represented the university in tech competitions, organized coding workshops, and mentored fellow students in programming and software development.",
-      activities: ["Workshop Facilitation", "Competition Participation", "Peer Mentoring", "Event Planning"],
+        "Raised awareness of SDG 8: Decent Work and Economic Growth through direct engagement and education sessions with campus workers.",
+      activities: ["Community Outreach", "Public Education", "SDG Awareness"],
+    },
+    {
+      title: "Community Educator",
+      organization: "BINUS University – TFI Program",
+      period: "2022",
+      description:
+        "Conducted an awareness session at Panti Asuhan Sunan Kalijaga Malang, introducing the role of AI in promoting integrity and reducing corruption. Designed the material to be accessible and engaging for orphanage youth.",
+      activities: ["Educational Outreach", "Campaigning", "Public Speaking"],
     },
   ];
 
