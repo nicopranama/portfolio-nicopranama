@@ -22,15 +22,13 @@ const Hero = () => {
           <Zap className="fill-current" />
           Fullstack Developer
         </Badge> */}
-        <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
-          Building Scalable & Engaging Applications
+        <h1 className="mt-6 text-5xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
+          Turning Ideas into Code
         </h1>
-        <p className="mt-6 text-[17px] md:text-lg">
-          Hey there! I&apos;m a Nico Pranama Hadi, a Computer Science student and 
-          aspiring Full Stack Developer who loves building cool and scalable applications. 
-          From crafting beautiful frontends to powering robust backends, I bring ideas to life with
-          clean code and great design. Let&apos;s create something amazing
-          together! 
+        <p className="mt-6 text-[16px] md:text-lg">
+          Hey there, I&apos;m a Nico Pranama Hadi! I&apos;m passionate about 
+          building apps that solve real problems and delight users. 
+          Let&apos;s create something incredible!
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button size="lg" className="rounded-full text-base" asChild>
