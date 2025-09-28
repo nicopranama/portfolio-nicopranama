@@ -14,21 +14,21 @@ const About = () => {
           <ProfileImage className="hidden md:block" />
 
           {/* Content */}
-          <div className="flex-1 md:text-left">
-            <Badge variant="secondary" className="mb-4">
+          <div className="flex-1 text-center md:text-left">
+            <Badge variant="secondary" className="mb-4 mx-auto md:mx-0">
               About Me
             </Badge>
-            <ProfileImage className="mt-3 mb-8 block md:hidden" />
+            <ProfileImage className="mt-3 mb-8 block md:hidden mx-auto" />
             <h2 className="text-4xl font-bold mb-4 tracking-tight">
               Passionate about creating impactful app experiences
             </h2>
-            <p className="text-muted-foreground mb-6 mr-5 text-justify">
+            <p className="text-muted-foreground mb-6 mr-2 text-justify">
               As a Computer Science student, I focus on learning and building
               scalable applications using modern technologies. My journey includes
               exploring React, Node.js, and cloud architecture. I&apos;m passionate about
               creating elegant solutions to real problems and continuously growing as a developer.
             </p>
-            <div className="flex flex-wrap gap-4 justify-start">
+            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <Button asChild className="rounded-full">
                 <a
                   href="https://github.com/nicopranama"
@@ -57,7 +57,7 @@ const ProfileImage = ({
   className,
   ...props
 }: HTMLAttributes<HTMLDivElement>) => (
-  <div className={cn("mt-10 w-48 h-48 md:w-64 md:h-64", className)} {...props}>
+  <div className={cn("mt-10 w-60 h-60 md:w-64 md:h-64", className)} {...props}>
     <div className="relative w-full h-full rounded-2xl overflow-hidden bg-accent">
       <Image src="/placeholder.svg" alt="" className="object-cover" fill />
     </div>
