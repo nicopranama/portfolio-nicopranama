@@ -9,7 +9,7 @@ interface ProjectCardProps {
   description: string;
   image: string;
   technologies: string[];
-  liveUrl?: string;
+  viewDetail?: string;
   githubUrl?: string;
 }
 
@@ -18,7 +18,7 @@ const ProjectCard = ({
   description,
   image,
   technologies,
-  liveUrl,
+  viewDetail,
   githubUrl,
 }: ProjectCardProps) => {
   return (
@@ -49,11 +49,11 @@ const ProjectCard = ({
 
         {/* Actions */}
         <div className="flex gap-3 mt-auto">
-          {liveUrl && (
+          {viewDetail && (
             <Button variant="default" className="rounded-full" asChild>
-              <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+              <a href={viewDetail} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="mr-1 h-4 w-4" />
-                Live Demo
+                View Detail
               </a>
             </Button>
           )}
@@ -78,40 +78,40 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Lumina",
       description:
-        "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-      image: "/placeholder.svg",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
-      liveUrl: "https://ecommerce-demo.com",
-      githubUrl: "https://github.com/username/ecommerce",
+        "AI-Powered Mobile Application for Personalized Skincare Recommendations",
+      image: "/Lumina Logo.png",
+      technologies: ["React Native", "Golang", "Python", "MySQL", "Firebase", "Expo", "Flask", "Gin"],
+      viewDetail: "https://www.notion.so/Lumina-27cd47ac9ea280c39598dbebfcfc820f?source=copy_link",
+      githubUrl: "https://github.com/nicopranama/lumina",
     },
     {
-      title: "AI Task Manager",
+      title: "Desa Wisata Bumiaji Website",
       description:
-        "Smart task management app that uses AI to categorize, prioritize, and suggest optimal task scheduling.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Python", "TensorFlow", "FastAPI", "MongoDB"],
-      liveUrl: "https://ai-taskmanager.com",
-      githubUrl: "https://github.com/username/ai-taskmanager",
+        "Tourism Village Web Platform with Admin Dashboard for Content Management, developed as part of the Pioneer TFISC program.",
+      image: "/Desa Wisata Bumiaji Website Image.png",
+      technologies: ["React", "Laravel", "MySQL", "Inertia.js", "Tailwind CSS", "ZOD"],
+      viewDetail: "https://www.notion.so/Desa-Wisata-Bumiaji-Website-27cd47ac9ea2810fae17d5238bc216a6?source=copy_link",
+      githubUrl: "https://amazingbumiaji.online/",
     },
     {
-      title: "Real-time Chat Application",
+      title: "Zendora",
       description:
-        "Feature-rich chat application with real-time messaging, file sharing, and video calls.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Socket.io", "WebRTC", "Node.js", "Redis"],
-      liveUrl: "https://chatapp-demo.com",
-      githubUrl: "https://github.com/username/chat-app",
+        "automates customer support emails with AI-driven agents and RAG technology for efficient, personalized, high-quality communication.",
+      image: "/Zendora.png",
+      technologies: ["Python", "Langchain", "Langgraph", "Langserve", "Google Gemini", "Groq", "Google Gmail"],
+      viewDetail: "https://www.notion.so/Zendora-27cd47ac9ea28125b466dbad79f4dda8?source=copy_link",
+      githubUrl: "https://github.com/nicopranama/zendora",
     },
     {
-      title: "AI Image Generator",
+      title: "HukumAI",
       description:
-        "An AI image generator that uses a model to generate images based on a prompt.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Next.js", "Tailwind CSS", "Shadcn UI"],
-      liveUrl: "https://ai-image-generator.com",
-      githubUrl: "https://github.com/username/ai-image-generator",
+        "AI-powered legal assistant for Indonesian MSMEs using RAG",
+      image: "/HukumAI.png",
+      technologies: ["Python", "Langchain", "ChromaDB", "PyMuPDF", "Streamlit", "OpenAI"],
+      viewDetail: "https://www.notion.so/HukumAI-27cd47ac9ea281b2b9c8c91f42514e79?source=copy_link",
+      githubUrl: "https://github.com/nicopranama/hukumai",
     },
   ];
 
