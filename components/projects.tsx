@@ -113,6 +113,15 @@ const Projects = () => {
       viewDetail: "https://www.notion.so/HukumAI-27cd47ac9ea281b2b9c8c91f42514e79?source=copy_link",
       githubUrl: "https://github.com/nicopranama/hukumai",
     },
+    {
+      title: "Memorise",
+      description:
+        "Memorise is a microservices-based flashcard app that helps users study smarter with AI-generated hints and progress tracking.",
+      image: "/Memorise.png",
+      technologies: ["Node.js", "Express", "MongoDB", "Redis", "RabbitMQ","Kotlin", "Python"],
+      viewDetail: "https://www.notion.so/Memorise-285d47ac9ea28027b32ae216180c5e3c?source=copy_link",
+      githubUrl: "https://github.com/nicopranama/memorise",
+    },
   ];
 
   return (
