@@ -98,9 +98,9 @@ const Projects = () => {
     {
       title: "Zendora",
       description:
-        "automates customer support emails with AI-driven agents and RAG technology for efficient, personalized, high-quality communication.",
+        "Automates customer support emails with AI-driven agents and RAG technology for efficient, personalized, high-quality communication.",
       image: "/Zendora.png",
-      technologies: ["Python", "Langchain", "Langgraph", "Langserve", "Google Gemini", "Groq", "Google Gmail"],
+      technologies: ["Python", "Langchain", "Langgraph", "Langserve", "FastAPI","Google Gemini", "Groq", "Google Gmail"],
       viewDetail: "https://www.notion.so/Zendora-27cd47ac9ea28125b466dbad79f4dda8?source=copy_link",
       githubUrl: "https://github.com/nicopranama/zendora",
     },
